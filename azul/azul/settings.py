@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'azul_app',
+    'home',
 ]
 
 MIDDLEWARE_CLASSES = [
