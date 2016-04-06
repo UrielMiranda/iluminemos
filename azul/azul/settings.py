@@ -25,7 +25,7 @@ SECRET_KEY = 'x_z5%$8%krq!s@m_x^ae%*9j87@if(hc(veyesjaf9d04i7d2m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'azul_app',
-    'home',
+    
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'azul.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
