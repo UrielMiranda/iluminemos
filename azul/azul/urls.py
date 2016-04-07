@@ -18,15 +18,9 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 
 
-
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-<<<<<<< HEAD
-
     url(r'^directorio', include('azuldirectorio.urls')),
     url(r'^galeria', include('galery.urls')),
-]
-=======
     url(r'^$', TemplateView.as_view(template_name='home.html')),
 ]
->>>>>>> ef20a4b5096db7e2600025a10f58864ac03b3516
