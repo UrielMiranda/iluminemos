@@ -26,8 +26,10 @@
         <entry file="file://$PROJECT_DIR$/azul/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <marker date="1460075232215" expanded="true" signature="0:303" placeholder="&quot;&quot;&quot;Django settings for azul project....&quot;&quot;&quot;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -561,7 +563,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding />
+          <folding>
+            <marker date="1460075232215" expanded="true" signature="0:303" placeholder="&quot;&quot;&quot;Django settings for azul project....&quot;&quot;&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,7 +629,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1460075232215" expanded="true" signature="0:303" placeholder="&quot;&quot;&quot;Django settings for azul project....&quot;&quot;&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +674,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1460075232215" expanded="true" signature="0:303" placeholder="&quot;&quot;&quot;Django settings for azul project....&quot;&quot;&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,8 +886,10 @@
     <entry file="file://$PROJECT_DIR$/azul/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding />
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1460075232215" expanded="true" signature="0:303" placeholder="&quot;&quot;&quot;Django settings for azul project....&quot;&quot;&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
