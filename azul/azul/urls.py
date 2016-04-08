@@ -26,11 +26,11 @@ urlpatterns = [
     url(r'^galeria', include('galery.urls')),
     url(r'^$', TemplateView.as_view(template_name='home.html')),
     url(r'^posts/', include('posts.urls',namespace="posts")),
-    url(
-        regex=r'^media/(?P<path>.*)$',
-        view='django.views.static.serve',
-        kwargs={'document_root':settings.MEDIA_ROOT}
-        ),
+    #url(
+     #   regex=r'^media/(?P<path>.*)$',
+     #   view='django.views.static.serve',
+     #   kwargs={'document_root':settings.MEDIA_ROOT}
+      #  ),
 ]
 if settings.DEBUG:
     urlpatterns = urlpatterns + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
