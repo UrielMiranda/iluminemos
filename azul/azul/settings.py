@@ -37,15 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-
     #apps
     'azuldirectorio',
     'galery',
-=======
     'azul_app',
-    
->>>>>>> ef20a4b5096db7e2600025a10f58864ac03b3516
+
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -64,13 +60,9 @@ ROOT_URLCONF = 'azul.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-<<<<<<< HEAD
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
         ],
-=======
-        'DIRS': ['templates'],
->>>>>>> ef20a4b5096db7e2600025a10f58864ac03b3516
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
