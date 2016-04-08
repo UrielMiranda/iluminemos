@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
 
     #apps
     'azuldirectorio',
@@ -48,6 +49,12 @@ INSTALLED_APPS = [
     # third apps
     'eventbrite',
 
+=======
+    #apps
+    'azuldirectorio',
+    'galery',
+    'azul_app',
+>>>>>>> 45bdb218e45f07b5514f854e776d488b67b54258
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -69,7 +76,10 @@ TEMPLATES = [
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
         ],
+<<<<<<< HEAD
         'DIRS': ['templates'],
+=======
+>>>>>>> 45bdb218e45f07b5514f854e776d488b67b54258
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,5 +141,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
 
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = '/media/'
